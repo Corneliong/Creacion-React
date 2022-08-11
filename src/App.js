@@ -20,7 +20,7 @@ var gg;
    var nombre2 = user.length === 0 ? 0 : user[3].name;
    var telefono = user.phone;
    var  url = user.length === 0 ? 0 : user[3].website;
-
+ var telefono2 = user.length === 0 ? 0 : user[2].phone;
 
   return (
     <div className="App mid-fwe">
@@ -33,6 +33,7 @@ var gg;
         <h3> nombre: {nombre}</h3>
         <h3> nombre2: {nombre2}</h3>
         <h3> telefono: {telefono}</h3>
+<h3> telefono2: {telefono2}</h3>
 
         <a href={url} target="_blank"> link a sitio</a>
         
